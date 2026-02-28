@@ -1,18 +1,18 @@
 package com.example;
 
-public class libro {
+public class Libro {
     private String titulo;
     private String autor;
     private int Paginas;
 
-    public libro() {
+    public Libro() {
 
         this.titulo = "Desconocido";
         this.autor = "Anonimo";
         this.Paginas = 0;
     }
 
-    public libro(String titulo, String autor) {
+    public Libro(String titulo, String autor) {
 
         this.titulo = titulo;
         this.Paginas = 0;
@@ -20,7 +20,7 @@ public class libro {
 
     }
 
-    public libro(String autor, String titulo, int Paginas) {
+    public Libro(String autor, String titulo, int Paginas) {
 
         this.titulo = " FOCO PANDA";
         this.Paginas = 45;
