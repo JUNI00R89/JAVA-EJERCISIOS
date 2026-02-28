@@ -3,7 +3,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
 
-        libro libro1 = new libro("FOCO PÁNDA",   "J.K"   ,     90);
+        Libro libro1 = new Libro("FOCO PÁNDA",   "J.K"   ,     90);
 
         libro1.mostrarDetalles();
 
